@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Please write your name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Result" />
+
+    <!--&lt;!&ndash;    Recibe texto y lo oculta como contraseña&ndash;&gt;-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextTextPassword"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="textPassword" />-->
+
+    <!--&lt;!&ndash;    Recibe texto en forma de número y también lo oculta como contraseña&ndash;&gt;-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextNumberPassword"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="numberPassword" />-->
+
+    <!--&lt;!&ndash;    Recibe texto multilinea, podemos seguir escribiendo en el espacio&ndash;&gt;-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextTextMultiLine"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="195dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:gravity="start|top"-->
+    <!--        android:inputType="textMultiLine" />-->
+</LinearLayout>
